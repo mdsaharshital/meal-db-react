@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: brown;
+  color: white;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: 0.3s all;
+}
+.menu a:hover {
+  opacity: 0.7;
+}
